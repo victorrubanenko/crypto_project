@@ -1,0 +1,66 @@
+body {
+  background-color: black;
+}
+
+.security_block {
+  margin-top: 100px;
+}
+.security_block .container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.security_block .container .left {
+  width: 40%;
+  flex-wrap: wrap;
+}
+.security_block .container .right {
+  width: 60%;
+}
+.security_block .container .right .security {
+  margin-top: 20px;
+  display: flex;
+  justify-content: left;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+}
+.security_block .container .right .security .text, .security_block .container .right .security img {
+  margin: auto 0;
+}
+.security_block .container .right .security .text {
+  color: white;
+}
+.security_block .container .right .header {
+  color: #D9E44F;
+  font-size: 16px;
+}
+.security_block .container .right .header2 {
+  color: white;
+  font-size: 36px;
+}
+.security_block .container .right .rectangles {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.security_block .container .right .rectangles .rectangle {
+  width: 48%;
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.05);
+  -webkit-backdrop-filter: blur(54px);
+          backdrop-filter: blur(54px);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.security_block .container .right .rectangles .rectangle .maindescription {
+  color: white;
+  font-size: 18px;
+  margin-top: 13px;
+}
+.security_block .container .right .rectangles .rectangle .seconddesription {
+  font-size: 16px;
+  color: #B5B6B6;
+  margin-top: 10px;
+}/*# sourceMappingURL=style.css.map */
